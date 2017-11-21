@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f4773ed-dd70-4eca-ad4c-7b7e67eab81c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/benchmarks/bench_multilabel_metrics.py" afterPath="$PROJECT_DIR$/sklearn-source/benchmarks/bench_multilabel_metrics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/benchmarks/bench_plot_incremental_pca.py" afterPath="$PROJECT_DIR$/sklearn-source/benchmarks/bench_plot_incremental_pca.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/conf.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/backreferences.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/backreferences.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/docs_resolv.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/docs_resolv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/gen_gallery.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/gen_gallery.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/gen_rst.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/sphinxext/sphinx_gallery/gen_rst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/tutorial/machine_learning_map/pyparsing.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/tutorial/machine_learning_map/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/doc/tutorial/machine_learning_map/svg2imagemap.py" afterPath="$PROJECT_DIR$/sklearn-source/doc/tutorial/machine_learning_map/svg2imagemap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/applications/plot_out_of_core_classification.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/applications/plot_out_of_core_classification.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/applications/plot_stock_market.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/applications/plot_stock_market.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/applications/wikipedia_principal_eigenvector.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/applications/wikipedia_principal_eigenvector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/classification/plot_classifier_comparison.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/classification/plot_classifier_comparison.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/classification/plot_lda.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/classification/plot_lda.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/cluster/plot_segmentation_toy.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/cluster/plot_segmentation_toy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/decomposition/plot_pca_vs_fa_model_selection.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/decomposition/plot_pca_vs_fa_model_selection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/ensemble/plot_bias_variance.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/ensemble/plot_bias_variance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/manifold/plot_manifold_sphere.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/manifold/plot_manifold_sphere.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/mixture/plot_gmm_covariances.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/mixture/plot_gmm_covariances.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/model_selection/plot_roc.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/model_selection/plot_roc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/examples/tree/plot_unveil_tree_structure.py" afterPath="$PROJECT_DIR$/sklearn-source/examples/tree/plot_unveil_tree_structure.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/_isotonic.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/_isotonic.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/_k_means.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/_k_means.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/birch.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/birch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/k_means_.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/k_means_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/mean_shift_.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/mean_shift_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/spectral.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/spectral.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/tests/test_dbscan.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cluster/tests/test_dbscan.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/covariance/outlier_detection.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/covariance/outlier_detection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/cross_validation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/cross_validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/base.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/samples_generator.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/samples_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/twenty_newsgroups.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/datasets/twenty_newsgroups.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/base.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/fastica_.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/fastica_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/kernel_pca.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/kernel_pca.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/nmf.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/decomposition/nmf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/dummy.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/dummy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/_parallel_backends.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/_parallel_backends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/memory.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/memory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/numpy_pickle_utils.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/externals/joblib/numpy_pickle_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/dict_vectorizer.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/dict_vectorizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/stop_words.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/stop_words.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/tests/test_text.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/feature_extraction/tests/test_text.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/feature_selection/tests/test_base.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/feature_selection/tests/test_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/feature_selection/tests/test_feature_select.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/feature_selection/tests/test_feature_select.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/gpr.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/gpr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/kernels.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/kernels.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/tests/test_gpr.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/gaussian_process/tests/test_gpr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/grid_search.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/grid_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/kernel_approximation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/kernel_approximation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/kernel_ridge.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/kernel_ridge.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/learning_curve.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/learning_curve.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/logistic.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/logistic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/ridge.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/ridge.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/sag.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/sag.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/setup.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/stochastic_gradient.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/stochastic_gradient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/tests/test_logistic.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/tests/test_logistic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/theil_sen.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/linear_model/theil_sen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/manifold/_barnes_hut_tsne.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/manifold/_barnes_hut_tsne.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/manifold/t_sne.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/manifold/t_sne.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/cluster/supervised.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/cluster/supervised.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/cluster/unsupervised.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/cluster/unsupervised.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/pairwise.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/pairwise.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/ranking.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/ranking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/regression.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/tests/test_classification.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/metrics/tests/test_classification.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/mixture/tests/test_bayesian_mixture.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/mixture/tests/test_bayesian_mixture.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_search.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_split.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_split.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_validation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/_validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/tests/test_search.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/model_selection/tests/test_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/multiclass.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/multiclass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/base.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/binary_tree.pxi" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/binary_tree.pxi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/dist_metrics.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/dist_metrics.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/kde.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/kde.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/nearest_centroid.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/nearest_centroid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/tests/test_approximate.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neighbors/tests/test_approximate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/neural_network/_stochastic_optimizers.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/neural_network/_stochastic_optimizers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/pipeline.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/pipeline.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/preprocessing/data.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/preprocessing/data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/svm/base.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/svm/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/svm/classes.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/svm/classes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/svm/libsvm_sparse.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/svm/libsvm_sparse.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/svm/tests/test_svm.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/svm/tests/test_svm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_grid_search.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_grid_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_kernel_approximation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_kernel_approximation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_multiclass.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_multiclass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_naive_bayes.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_naive_bayes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_pipeline.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tests/test_pipeline.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tree/_tree.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tree/_tree.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/tree/export.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/tree/export.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/_scipy_sparse_lsqr_backport.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/_scipy_sparse_lsqr_backport.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/graph_shortest_path.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/graph_shortest_path.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/sparsetools/_graph_tools.pyx" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/sparsetools/_graph_tools.pyx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/testing.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/tests/test_validation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/tests/test_validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sklearn-source/sklearn/utils/validation.py" afterPath="$PROJECT_DIR$/sklearn-source/sklearn/utils/validation.py" />
+    </list>
+    <ignored path="FakeNews.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FakeNews$training_model.coverage" NAME="training_model Coverage Results" MODIFIED="1485339276561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FakeNews" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="training_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fake_links" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/fake_links">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNN REAL ANOTHER" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/new_data/CNN REAL ANOTHER">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/scikit-learn" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/res/links" />
+        <option value="$PROJECT_DIR$/res/new_articles/Obama Signs Executive Order Banning The Pledge Of Allegiance In Schools Nationwide" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/res/new_articles/Fake Woman News" />
+        <option value="$PROJECT_DIR$/res/data/real_news/cnnTIMES_0" />
+        <option value="$PROJECT_DIR$/res/new_data/REAL CNN NEWS" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE DRUG" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE OBAMA" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE OBAMA 2" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE TRUMP" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE TRUMP 2" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE VOTERS" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE MEXICANS DEMOCRATS" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE SELFIE GUN" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE BLACKS" />
+        <option value="$PROJECT_DIR$/res/new_data/FAKE PENIS" />
+        <option value="$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_1" />
+        <option value="$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_4" />
+        <option value="$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_20" />
+        <option value="$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_34" />
+        <option value="$PROJECT_DIR$/res/new_data/REAL CNN" />
+        <option value="$PROJECT_DIR$/res/new_data/CNN REAL ANOTHER" />
+        <option value="$PROJECT_DIR$/training_model.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="819" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FakeNews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FakeNewsDetect" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/new_data" />
+      <recent name="$PROJECT_DIR$/res/data/real_news" />
+      <recent name="$PROJECT_DIR$/res/fox_news" />
+      <recent name="$PROJECT_DIR$/res/new_articles" />
+      <recent name="$PROJECT_DIR$/res/other" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/data" />
+      <recent name="$PROJECT_DIR$/res/temp" />
+      <recent name="$PROJECT_DIR$/res/cnn" />
+      <recent name="$PROJECT_DIR$/res/new_data" />
+      <recent name="$PROJECT_DIR$/res/other" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.training_model">
+    <configuration default="false" name="training_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="FakeNews" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FakeNews" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.training_model" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.training_model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f4773ed-dd70-4eca-ad4c-7b7e67eab81c" name="Default" comment="" />
+      <created>1484728775120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484728775120</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39398086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39808482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_21">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_25">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_31">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_34">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_40">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_42">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_43">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_57">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_67">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/google/GOOGLE_95">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/data/real_news/GOOGLE_44">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE OBAMA">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE TRUMP 2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE OBAMA 2" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE VOTERS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE MEXICANS DEMOCRATS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE SELFIE GUN">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/Chick-fil-A President Dan Cathy – “We Don’t Like The Blacks Either”" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE BLACKS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="622" selection-start-line="12" selection-start-column="622" selection-end-line="12" selection-end-column="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_1" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_4" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_7" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="89" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_9">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_13" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_14" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_15" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_17" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_18" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_20" />
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_22">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_24">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_25">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_29">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/FAKE PENIS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_34">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_37">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_41">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_42">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_44">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_45">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/SOME FAKE ARTICLE_33">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/REAL CNN">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/sklearn/datasets/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/fake_links">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/new_data/CNN REAL ANOTHER">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
