@@ -7,8 +7,6 @@ from sklearn.linear_model import SGDClassifier, LogisticRegression, LogisticRegr
 import sklearn.svm as svm
 from sklearn import metrics
 import newspaper, time
-import requests
-from readability import Document
 
 NUM_OF_ARTICLES = 100
 MIN_ARTICLE_LEN = 1000
