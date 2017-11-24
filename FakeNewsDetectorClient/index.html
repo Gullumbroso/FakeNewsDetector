@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Stereo Graph</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body ng-app="FakeNews" ng-cloak>
+<div class="main-container text-center" ng-controller="FakeNewsController" ng-cloak>
+    <div class="logo">
+        <img width="220" src="assets/fake_news_logo.png">
+    </div>
+    <h3>
+        Let our algorithm tell you if it's <b>FakeNews</b>.
+    </h3>
+    <div ng-switch on="(status == 'awaiting' || status == 'loading')">
+        <form ng-submit="go($event)" ng-switch-when="true">
+            <div>
+                <div class="input-container">
+                    <md-input-container md-no-float class="inline-block ">
+                        <input ng-model="query.url" placeholder="Insert a URL of an article">
+                    </md-input-container>
+                </div>
+                <div style="min-height: 30px;" layout="row" layout-sm="column" layout-align="space-around">
+                    <div  ng-show="status == 'loading'">
+                        <md-progress-circular md-mode="indeterminate"
+                                              md-diameter="30"></md-progress-circular>
+                    </div>
+
+                </div>
+                <md-button type="submit" class="md-raised md-primary go">
+                    {{goTitle}}
+                </md-button>
+            </div>
+        </form>
+        <div class="results" ng-switch-default>
+            <div class="answer" ng-class="{'show-in-delay': presentResults}">
+                <div class="text-center">
+                    <img class="result-icon" src={{resultIcon}}>
+                </div>
+                <h3 style="font-weight: 600">
+                    {{answer}}
+                </h3>
+            </div>
+            <div class="prediction-confidence">
+                <h4>
+                    Confidence Rate: {{confidence}} ({{confidence_score}})
+                </h4>
+            </div>
+            <div style="margin-top: 20px">
+                <md-button ng-click="tryAgain($event)" class="md-raised md-primary go">
+                    {{tryAgainTitle}}
+                </md-button>
+            </div>
+
+            <div class="article-contents">
+                <h4>
+                    The article:
+                </h4>
+                <div class="article-contents-container">
+                    <h3>
+                        {{article.title}}
+                    </h3>
+                    <p>
+                        {{article.content}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+<script type="text/javascript" src="app/app.js"></script>
+
+</body>
+</html>
