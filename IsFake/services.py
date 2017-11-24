@@ -121,7 +121,7 @@ def predict(count_vect, tfidf_transformer, clf, articles, data):
 def get_trained_machine(present_graph=False):
 
     # Get the data
-    articles = load_files('./res/data')
+    articles = load_files('res/data')
 
     # Create the word to vector transformers
     count_vect = CountVectorizer(ngram_range=(1, 3))
