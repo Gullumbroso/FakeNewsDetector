@@ -25,7 +25,7 @@ SECRET_KEY = 'wcjw(^xbsl!n=ri(8dxu#nj&d+xa&=ob#)4s*cj6tt=fagqe9$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gullumbroso.pythonanywhere.com']
 
 
 # Application definition
