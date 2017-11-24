@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework import viewsets, status
 from rest_framework.response import Response
-import FakeNewsServer.IsFake.services as services
+import IsFake.services as services
 
 
 # Train the model first thing when the server starts running

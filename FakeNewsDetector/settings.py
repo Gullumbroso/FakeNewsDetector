@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'FakeNewsDetect.urls'
+ROOT_URLCONF = 'FakeNewsDetector.urls'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'FakeNewsDetect.wsgi.application'
+WSGI_APPLICATION = 'FakeNewsDetector.wsgi.application'
 
 
 # Database
