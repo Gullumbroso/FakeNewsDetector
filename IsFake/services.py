@@ -118,10 +118,20 @@ def predict(count_vect, tfidf_transformer, clf, articles, data):
     return label, pred_score
 
 
-def get_trained_machine(present_graph=False):
+def get_data():
 
     # Get the data
-    articles = load_files('res/data')
+    dir_path = os.path.dirname(os.path.abspath(__file__))
+    main_dir = os.path.dirname(dir_path)
+    data_path = main_dir + '/res/data'
+    print('\n' + data_path + '\n')
+    articles = load_files(data_path)
+    return articles
+
+
+def get_trained_machine(present_graph=False):
+
+    articles = get_data()
 
     # Create the word to vector transformers
     count_vect = CountVectorizer(ngram_range=(1, 3))
@@ -141,8 +151,7 @@ def get_trained_machine(present_graph=False):
 
 def get_precision():
 
-    # Get the data
-    articles = load_files('./res/data')
+    articles = get_data()
 
     # Create the word to vector transformers
     count_vect = CountVectorizer()

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FakeNewsDetector.iml" filepath="$PROJECT_DIR$/.idea/FakeNewsDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FakeNewsDetector/.idea/FakeNewsDetector.iml" filepath="$PROJECT_DIR$/../FakeNewsDetector/.idea/FakeNewsDetector.iml" />
     </modules>
   </component>
 </project>
