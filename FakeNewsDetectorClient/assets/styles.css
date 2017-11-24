@@ -7,12 +7,29 @@ html, body {
     text-align: center;
 }
 
+.nav-bar {
+    height: 64px;
+    padding: 0 30px;
+}
+
+.links-container {
+    float: right;
+}
+
+.links-container a img {
+    height: 50px;
+    transition: all ease-out 0.2s;
+}
+
+.links-container a img:hover {
+    opacity: 0.6;
+}
+
 .inline-block {
     display: inline-block;
 }
 
 .main-container {
-    margin: 40px;
     padding: 40px;
 }
 
@@ -74,6 +91,10 @@ md-input-container {
 
 .result-icon {
     width: 60px;
+}
+
+.progress-circle {
+    margin: auto;
 }
 
 .go {

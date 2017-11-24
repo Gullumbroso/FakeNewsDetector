@@ -3,15 +3,24 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Stereo Graph</title>
+    <title>Fake News Detector</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 </head>
 <body ng-app="FakeNews" ng-cloak>
 <div class="main-container text-center" ng-controller="FakeNewsController" ng-cloak>
+    <nav class="nav-bar">
+        <div class="links-container">
+            <md-tooltip md-direction="bottom">View on Github</md-tooltip>
+            <a ng-href="https://github.com/Gullumbroso/FakeNewsDetector">
+                <img src="assets/github_button.png" />
+            </a>
+        </div>
+    </nav>
     <div class="logo">
         <img width="220" src="assets/fake_news_logo.png">
     </div>
@@ -27,9 +36,11 @@
                     </md-input-container>
                 </div>
                 <div style="min-height: 30px;" layout="row" layout-sm="column" layout-align="space-around">
-                    <div  ng-show="status == 'loading'">
+                    <div ng-show="status == 'loading'">
                         <md-progress-circular md-mode="indeterminate"
-                                              md-diameter="30"></md-progress-circular>
+                                              md-diameter="30"
+                                              class="progress-circle">
+                        </md-progress-circular>
                     </div>
 
                 </div>
