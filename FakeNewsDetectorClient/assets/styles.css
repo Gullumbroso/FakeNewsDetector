@@ -7,9 +7,12 @@ html, body {
     text-align: center;
 }
 
+.main-container {
+    padding: 20px;
+}
+
 .nav-bar {
     height: 64px;
-    padding: 0 30px;
 }
 
 .links-container {
@@ -27,10 +30,6 @@ html, body {
 
 .inline-block {
     display: inline-block;
-}
-
-.main-container {
-    padding: 40px;
 }
 
 .input-container {
@@ -54,7 +53,8 @@ h3 {
 }
 
 md-input-container {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     font-size: 1.4em;
     /*margin: 0 10px;*/
 }
@@ -110,4 +110,13 @@ md-input-container {
     margin: 50px auto 20px;
     max-width: 600px;
     text-align: left;
+}
+
+@media (min-width: 720px ) {
+    .main-container {
+        padding: 20px;
+    }
+    .nav-bar {
+        padding: 0 30px;
+    }
 }
